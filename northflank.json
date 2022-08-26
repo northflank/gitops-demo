@@ -5,7 +5,7 @@
     "spec": {
       "name": "GitOps Service",
       "billing": {
-        "deploymentPlan": "nf-compute-20"
+        "deploymentPlan": "nf-compute-50"
       },
       "deployment": {
         "external": {
