@@ -3,7 +3,7 @@
   "spec": {
     "kind": "Workflow",
     "spec": {
-      "type": "parallel",
+      "type": "sequential",
       "steps": [
         {
           "kind": "Addon",
