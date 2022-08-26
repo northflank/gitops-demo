@@ -3,7 +3,7 @@
   "spec": {
     "kind": "Workflow",
     "spec": {
-      "type": "parallel",
+      "type": "sequential",
       "steps": [
         {
           "kind": "Addon",
@@ -138,7 +138,7 @@
       ]
     }
   },
-  "name": "fond-bell",
+  "name": "wikijs",
   "description": "",
   "project": {
     "id": "wikijs-template"
