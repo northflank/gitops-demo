@@ -28,10 +28,11 @@
         }
       ],
       "description": "Commit test",
-      "runtimeEnvironment": {}
+      "runtimeEnvironment": {},
+      "healthChecks": []
     }
   },
-  "name": "gitops-template",
+  "name": "GitOps",
   "description": "test",
   "project": {
     "id": "myjam-demo"
