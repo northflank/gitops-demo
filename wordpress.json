@@ -31,7 +31,7 @@
             "secretType": "environment",
             "priority": 10,
             "secrets": {
-              "WORDPRESS_DB_HOST": ""
+              "WORDPRESS_DB_HOST": "${HOST}:${PORT}"
             },
             "addonDependencies": [
               {
