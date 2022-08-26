@@ -1,0 +1,39 @@
+{
+  "apiVersion": "v1",
+  "spec": {
+    "kind": "DeploymentService",
+    "spec": {
+      "name": "GitOps Service",
+      "billing": {
+        "deploymentPlan": "nf-compute-20"
+      },
+      "deployment": {
+        "external": {
+          "imagePath": "nginx:latest"
+        },
+        "instances": 1
+      },
+      "ports": [
+        {
+          "name": "port-1",
+          "internalPort": 80,
+          "protocol": "HTTP",
+          "public": true,
+          "disableNfDomain": false,
+          "security": {
+            "credentials": [],
+            "policies": []
+          },
+          "domains": []
+        }
+      ],
+      "description": "Commit test",
+      "runtimeEnvironment": {}
+    }
+  },
+  "name": "gitops-template",
+  "description": "test",
+  "project": {
+    "id": "myjam-demo"
+  }
+}
