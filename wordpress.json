@@ -62,9 +62,9 @@
                     ]
                   },
                   {
-                    "keyName": "WORDPRESS_DB_NAME",
+                    "keyName": "DATABASE",
                     "aliases": [
-                      "DATABASE"
+                      "WORDPRESS_DB_NAME"
                     ]
                   }
                 ]
