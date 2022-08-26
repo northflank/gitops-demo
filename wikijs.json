@@ -18,7 +18,7 @@
               "storage": 4096,
               "replicas": 1
             },
-            "tlsEnabled": true,
+            "tlsEnabled": false,
             "externalAccessEnabled": false,
             "ipPolicies": [],
             "pitrEnabled": false
