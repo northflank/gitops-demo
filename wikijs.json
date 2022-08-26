@@ -49,7 +49,7 @@
                   {
                     "keyName": "PASSWORD",
                     "aliases": [
-                      "DB_PASSWORD"
+                      "DB_PASS"
                     ]
                   },
                   {
@@ -138,8 +138,8 @@
       ]
     }
   },
-  "name": "wikijs",
   "description": "",
+  "name": "fond-bell",
   "project": {
     "id": "wikijs-template"
   }
