@@ -11,7 +11,7 @@
         "external": {
           "imagePath": "nginx:latest"
         },
-        "instances": 2
+        "instances": 1
       },
       "ports": [
         {
