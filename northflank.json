@@ -32,9 +32,9 @@
       "healthChecks": []
     }
   },
-  "name": "GitOps",
+  "name": "nutritious-motion",
   "description": "test",
   "project": {
-    "id": "myjam-demo"
+    "id": "internal-devops"
   }
 }
