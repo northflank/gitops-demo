@@ -32,9 +32,9 @@
       "healthChecks": []
     }
   },
-  "name": "nutritious-motion",
+  "name": "GitOps template",
   "description": "test",
   "project": {
-    "id": "internal-devops"
+    "id": "azure"
   }
 }
